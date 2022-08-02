@@ -1,0 +1,1 @@
+sudo docker run -d -ti -p 25565:25565 -e EULA=TRUE -e VERSION=1.19 --name first-custom-mc-server -v ${HOME}/minecraft/star-wars-world:/data itzg/minecraft-server
